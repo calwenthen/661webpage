@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+
+/*-------------------------------------------清除默认*/
+body{ font-family:"Microsoft YaHei"; font-size:12px;}
+/*-------------------------------------整体布局--------------------------------*/
+.top{ height:28px; background-color:#282828 }
+.header{ background-color:#FFF; height:90px;}
+.topbar{ height:170px; background:url(../image/banner-acc.jpg)}
+.article{ height:570px; margin-bottom:120px; margin-top:-50px;}
+.footer{ height:140px; background-color:#525e6a}
+
+/*-------------------------------------中心布局--------------------------------*/
+
+.container{ width:1000px; margin:0 auto}
+.top .container{ height:28px;}
+.header .container{ height:90px}
+.topbar .container{ background-color:#66F; height:170px;}
+.article .container{ height:570px;/* border-bottom:1px solid #eaeaea*/}
+.footer .container{ height:140px}
+
+
+/*-------------------------------------article中心布局--------------------------------*/
+
+.bread{ height:49px; background-color:#FFF; border-bottom:1px solid #eaeaea}
+.aside{ width:248px; height:100%; float:left; border-left:1px solid #eaeaea;  border-right:1px solid #eaeaea;}
+.content{ width:749px; height:100%; float:left;border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea;}
+
+
+/*-------------------------------------content中心布局--------------------------------*/
+.acco{ height:169px; width:100%; border-bottom:1px solid #eaeaea}
+.sto{ height:160px; width:100%; border-bottom:1px solid #eaeaea}
+.smo{ height:239px; width:100%; border-top:1px solid #eaeaea}
+
+ .sto .sec{ width:33%; height:160px; float:left}
+ .sto .sto-two{ border-left:1px solid #eaeaea; border-right:1px solid #eaeaea;}
+
+ /*--------------------填充top中的内容---------------------------*/
+.sp{ color:#FFF; font-size:12px}
+.top .container ul a{ color:#FFF; font-size:12px}
+.top .container ul{ float:right; margin-right:150px; height:28px; line-height:28px; padding-left:15px}
+.top .container ul li{ float:left; color:#CCC; margin-right:20px; }
+
+.top .container ul li a:hover{ text-decoration:underline; color:#24c3fa;}
+
+
+
+ /*--------------------填充header中的内容---------------------------*/
+
+.container .image{ float:left; margin-top:15px; margin-left:25px}
+.container .acc-two{ float:right; border-right:1px dashed #eaeaea}
+.container .acc-two li{ float:left; width:130px; height:90px; border-left:1px dashed #eaeaea; text-align:center; font-size:12px; color:#878787;}
+.container .acc-two a{ display:block; height:60px; padding-top:27px; color:#999; text-decoration:none; font-size:18px; color:#565656}
+.container .acc-two em{ display:block; font-style:normal; font-size:9px;}
+.container .acc-two .ac{ color:#416b9d}
+.container .acc-two li a:hover, .active{ border-bottom:3px solid #039; color:#6da3e1}
+
+
+ /*--------------------填充topbar中的内容---------------------------*/
+
+  h2{ font-size:20px; color:#003; text-align:center; padding-top:45px; font-weight:300;}
+   .topbar h2 .zhang{ display:block; color:#999;/* margin-top:1px;*/ font-size:12px}
+
+
+
+
+
+ /*--------------------填充article中bread中的内容---------------------------*/
+
+ .bread .manage{ float:left; margin-left:10px}
+ .bread .manage li{ float:left; height:50px; line-height:50px; width:100px;}
+ .bread .manage .ko{ background:url(../image/leyou.png) no-repeat 5px 15px; padding-left:20px}
+ .bread ul li a{ color:#999; text-decoration:none;}
+  .bread .manage em{ padding-left:20px}
+.bread .more{ float:right;}
+.bread .more li{ float:left; width:130px; margin:0 auto; height:50px; line-height:50px; text-align:center; border-left:1px dashed #CCC}
+
+.pn{ margin-top:15px; margin-left:10px}
+.bread{ font-size:14px; border:1px solid #eaeaea;}
+.bread a{ color:#000; height:50px; display:block}
+.bread .more a:hover{color:#0CC; text-decoration:none}
+.manage li{ margin-left:10px}
+
+
+
+ /*--------------------填充article中aside中的内容---------------------------*/
+ .aside .lj{ color:#515151; font-weight:200; font-size:16px}
+.aside ul{ margin-left:35px; margin-top:50px; font-size:18px; color:#000}
+.aside ul li{ margin-top:10px}
+.aside ul li ul{ margin-top:25px}
+.aside ul li ul li{ font-size:12px;}
+.aside ul li a{ color:#878787; text-decoration:none;}
+.aside{ border-left:1px solid #eaeaea; border-bottom:1px solid #eaeaea}
+.aside a:hover{ text-decoration:underline; color:#3FC}
+
+
+ /*--------------------填充article中acco中的内容---------------------------*/
+.acco .pic1{ float:left; margin-left:90px; margin-top:60px}
+	.acco .renzheng{ float:right; margin-right:330px; margin-top:30px; font-size:12px}
+	.acco .renzheng p{ margin-top:15px; color:#878787}
+	.acco .renzheng a{ margin-left:15px; color:#3FF;}
+	.acco .renzheng a:hover{ text-decoration:underline}
+	
+ /*--------------------填充article中sto中的内容---------------------------*/
+ .sto h4{ color:#6e6e6e}
+ .sec span{ color:#8d8d8d}
+ .sec .s2{ margin-top:40px; text-align:center; color:#b4b4b4}
+.sec .s1{ margin-top:40px; margin-left:30px; padding-left:70px}			
+ .s1{ background:url(../image/icon-mobile.png) no-repeat/* 40px 40px*/}			
+
+ .sec .s1 span{ padding-left:20px}
+ .sec .s1 a{ padding-left:10px; color:#25c5f9}
+  .s3{ background:url(../image/icon_right.png) no-repeat; height:22px;}
+ .sec .s1 h4{ margin-bottom:10px}
+ .sec .s5{ background:url(../image/icon-mess.png) no-repeat}
+ .sec .s6{ background:url(../image/icon-order.png) no-repeat}
+ .sec .s1 .s7{ background:url(../image/icon_alert.png) no-repeat}
+    /*--------------------填充article中smo中的内容---------------------------*/ 
+	.smo .tab{ margin-left:40px; margin-top:50px; font-size:12px; }
+	.tab tr .sa{ padding-left:20px; color:#b4b4b4}
+	.tab tr .de{ color:#878787}
+	.tab tr .safe{ padding-left:10px}
+	 .tab tr a{ color:#0FF}
+	 .tab tr a:hover{ text-decoration:underline; color:#06F}
+	.tab table tr{ height:30px; line-height:30px;}
+
+
+
+
+
+
+
+
+
+
+
+.container .pic{ float:left; margin-left:30px; margin-top:20px}
+.container .foot{ float:left; margin-left:60px; margin-top:20px}
+.container a{ color:#CCC}
+.container .foot{ color:#6c7a83}  
+.container .foot p a{ color:#6c7a83}

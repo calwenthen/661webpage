@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0}
+ul,ol{ list-style:none}
+a{ text-decoration:none}
+img{ border:none}
+body{ font-family:"microsoft yahei"/*,"simsun","黑体"*/; font-size:12px; background-color:#FFF}
+
+/*-----------------------------------布局----------------------------------------*/
+.top{ height:90px;}
+.account{ height:200px; background:url(../image/banner-acc.jpg)}
+.article{ height:630px; margin-bottom:120px; margin-top:-50px}
+.foot{ height:150px; background-color:#666}
+/*-----------------------------------确定中间位置----------------------------------------*/
+.container{ width:1000px; margin:0 auto}
+.top .container{ height:90px;}
+.account .container{ height:200px;}
+.article .container{ height:630px; background-color:#FFF}
+.foot .container{ height:150px;}
+/*-----------------------------------确定article位置----------------------------------------*/
+.bread{ height:49px; border-bottom:1px solid #eaeaea}
+.aside{ width:248px; height:100%; float:left; border-right:1px solid #eaeaea}
+.middle{ width:749px; height:100%; float:right; border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea}
+/*-----------------------------------确定middle位置----------------------------------------*/
+/*-----------------------------------top----------------------------------------*/
+.container .image{ float:left; margin-top:15px; margin-left:25px}
+.container .acc-two{ float:right; border-right:1px dashed #eaeaea}
+.container .acc-two li{ float:left; width:130px; height:90px; border-left:1px dashed #eaeaea; text-align:center; font-size:18px; color:#565656}
+.container .acc-two a{ display:block; height:60px; padding-top:27px; color:#999}
+.container .acc-two em{ display:block; font-style:normal; font-size:9px;}
+
+.container .acc-two li a:hover,.active{ border-bottom:3px solid #039; color:#00C}
+
+/*-----------------------------------account----------------------------------------*/
+
+ .account{ background:url(../image/banner-acc.jpg)}
+ .account h3{ font-size:20px; color:#003; text-align:center; padding-top:45px; font-weight:300;}
+  .account h3 .zhang{ display:block; color:#999;/* margin-top:5px*/ font-size:12px; color:#2D2B2B}
+  
+  
+  /*-----------------------------------bread----------------------------------------*/
+  
+  
+  .manage{ float:left}
+  .manage .le{ background:url(../image/leyou.png) no-repeat 2px 12px}
+  .manage li{ float:left; width:100px; text-align:center; height:50px; line-height:50px}
+ .manage li a{ display:block; color:#b3b3b3}
+ .manage li a:hover{ color:#24c3fa;}
+  .more{ float:right; }
+  .more li{ float:left; width:120px; text-align:center; height:50px; line-height:50px}
+   .more li a{ color:#b3b3b3; display:block; }
+ .more li a:hover, .pp{ background-color:#25c4fb; color:#FFF}
+ .more li .pp{ color:#FFFFFF}
+ 
+   /*----------------------------------aside----------------------------------------*/
+   .aside ul{ margin-left:35px; margin-top:50px; font-size:14px;}
+.aside ul li{ margin-top:10px}
+.aside ul li ul{ margin-top:25px}
+.aside ul li a{ color:#999}
+.aside{ border-left:1px solid #eaeaea; border-bottom:1px solid #eaeaea}
+.aside a:hover{ text-decoration:underline; color:#3FC}
+.bread span{ float:left}
+.aside h1{ float:right; width:}
+.aside .m a{ color:#3FC; color:#25c4fb}
+.aside h3 .lj{ color:#878787; font-size:16px; font-weight:200}
+
+   /*-----------------------------------middle----------------------------------------*/
+  
+  .middle .we ,.middle .yy , .middle .tab{margin-top:40px; margin-left:25px}
+ .middle .ti{ margin-top:40px; margin-left:25px}
+ .tab tr td{ height:30px; width:250px; line-height:30px; text-align:center; font-size:14px; color:#999}
+ .tab .l2{ color:#999}
+ table{ border:#eaeaea; border-collapse:collapse;}
+.middle .l2{ margin-bottom:20px}
+ .ti p{ color:#999; margin-top:10px; text-indent:2em}
+ .middle h2{width:600px; border-bottom:1px solid #eaeaea; height:50px;color:#999; font-size:20px;}
+ .ti .p1{ margin-top:10px}
+ .yy p{ margin-top:10px; font-size:12px; color:#666; font-weight:500px}
+ .yy form{ margin-left:15px}
+ .yy .ut{ height:25px; width:200px; line-height:25px}
+ .yy .us{ height:25px; width:80px; border:none; margin-left:105px; background-color:#09C}
+ .yy .us:hover{ background-color:#369}
+ .yy p .l1{ text-align:right; width:100px; display:inline-block}
+   
+   
+   /*-----------------------------------foot----------------------------------------*/
+   .container .pic{ float:left; margin-left:30px; margin-top:20px}
+.container .footer{ float:left; margin-left:60px; margin-top:20px}
+.container a{ color:#CCC}
+ .container .footer p{ color:#71828a}  
+ .container .footer p a{ color:#71828a}
+ 
+ 
+ 
+ 
+ 

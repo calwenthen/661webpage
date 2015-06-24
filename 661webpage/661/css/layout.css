@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+/*-------------------------------------------------------以上是清除默认---------------------*/
+
+/*-------------------------------------------------------布局---------------------*/
+
+.top{ height:90px; background-color:#FFF}
+.article{ height:400px; background-color:#eaeaea}
+.link{ height:170px; background-color:#e8ecef}
+.news{ height:150px; background-color:#f6f7f9; margin-top:55px}
+.foot{ height:140px; margin-top:120px; background-color:#525e6a}
+
+/*-------------------------------------------------------中心布局--------------------*/
+.container{ width:1000px; margin:0 auto;}
+.top .container{ height:90px;}
+.article .container{ height:400px;}
+.link .container{ height:170px;}
+.news .container{ height:150px;}
+.foot .container{ height:140px;}
+/*-------------------------------------------------------article中布局--------------------*/
+.pic1{ width:720px; height:100%; float:left}
+.pic2{ width:280px; height:100%; float:left;}
+.pic3{ height:70px;}
+/*-------------------------------------------------------news中的布局-------------------*/
+.new1{ width:333px; height:150px; float:left; background-color:#e8e9eb}
+.new2{ width:333px; height:150px; border-left:1px solid #eaeaea; border-right:1px solid #eaeaea; float:left; background-color:#ecedef}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------top--------------------*/
+
+
+.container .image{ float:left; margin-top:15px; margin-left:25px}
+.container .acc-two{ float:right; border-right:1px dashed #eaeaea}
+.container .acc-two li{ float:left; width:130px; height:90px; border-left:1px dashed #eaeaea; text-align:center; font-size:18px;}
+.container .acc-two a{ display:block; height:60px; padding-top:27px; color:#999; text-decoration:none; font-size:18px; color:#565656}
+.container .acc-two em{ display:block; font-style:normal; font-size:9px;}
+
+.container .acc-two li a:hover,.active{ border-bottom:3px solid #039; color:#00C}
+
+
+/*----------------------------------------------------article中pic1--------------------*/
+
+.pic1 ul li { margin-top:56px}
+
+
+/*----------------------------------------------------article中pic2的pic3-------------------*/
+.pic2 .pic3 ul{ margin-top:56px}
+ .pic2 .pic3 ul li{ float:left; width:140px; height:70px; line-height:70px; text-align:center; font-size:16px;}
+.pic3 .l1{ background-color:#0ba7e4}
+.pic3 .l2{ background-color:#e8602c}
+.pic3 a{ color:#FFF;  width:140px; height:70px; display:block}
+
+/*----------------------------------------------------article中pic2的pic4-------------------*/
+.pic4{ background-color:#FFF; width:280px; height:270px}
+.pic4 form{ margin-top:20px; margin-left:30px}
+.pic4 input{ margin-top:5px}
+#uname{ background-image:url(../image/uname_bg.gif); width:160px; height:27px; line-height:27px; padding-left:33px}
+#upass{ background-image:url(../image/upass_bg.gif); width:160px; height:27px; line-height:27px; padding-left:33px}
+#utext{ background-image:url(../image/vad_bg.gif); width:70px; height:27px; line-height:27px}
+#sub{ background-color:#5a85b8; width:197px; height:30px; border:none}
+.pic4 .forget{ margin-left:135px; color:#CCC}
+.pic4 .si{ color:#F33; margin-left:10px}
+.pic4 .pic5{ margin-left:5px; margin-top:5px}
+#sub:hover{ background-color:#03C}
+.pic4 .ut{ margin-bottom:10px}
+.pic4 h3{ width:280px; height:40px; line-height:40px; text-align:center; background-color:#eaeaea; font-size:22px; color:#CCC}
+
+/*----------------------------------------------------link-------------------*/
+
+.container ul li{ float:left; width:165px; height:170px;}
+.container ul li span{ display:block;}
+.container ul li a{ text-decoration:none; font-size:16px; color:#999; font-weight:bold}
+
+.link .container ul li img{ margin-left:35px; margin-top:30px}
+.link .container ul li span{ margin-left:43px}
+/*----------------------------------------------------new1-------------------*/
+
+/*.new1 h1{ margin-top:10px; margin-left:90px; font-size:16px}
+.new1 p{ margin-left:80px; margin-top:10px}
+.new1 .ab{ margin-left:120px; margin-top:20px; width:80px; height:25px; background-color:#07b7e0; color:#FFF; font-weight:bold; border:none; font-size:16px}
+*/
+.new1 .yi{ float:left}
+.new1 .wi{ float:right; margin-top:5px; margin-right:20px}
+.new1 h1{font-size:16px; margin-left:15px}
+.new1 .wi .ti{ margin-right:30px; margin-top:5px}
+.new1 .ab{ width:80px; height:25px; background-color:#07b7e0; color:#FFF; font-weight:bold; border:none; font-size:16px; margin-top:10px; margin-left:30px}
+/*----------------------------------------------------new2-------------------*/
+
+.new2 table{ margin-left:40px; margin-top:10px; border-bottom:1px dashed #CCC}
+.new2 table tr a{ text-decoration:none; color:#666}
+.new2 table tr td{ border-bottom:1px dashed #CCC; width:200px; height:30px;}
+
+/*.new2 h1{ height:20px; width:60px; border-left:5px solid #0CC;}
+.new2  h1{ margin-left:10px}
+.new2 h1 span{ display:block; float:right; color:#333}
+.new2 h1 a{ color:#333; font-size:14px; text-decoration:none}*/
+
+
+.new2 h1{ height:25px; line-height:25px; border-left:5px solid #0CF; padding-left:10px; margin-bottom:10px;}
+.new2 h1 .my_more{ float:right; color:#666; margin-right:10px}
+
+
+/*----------------------------------------------------new3------------------*/
+
+.new3 p{ float:left; margin-left:20px; margin-top:25px}
+.new3 table{ float:right; margin-right:30px; margin-top:25px}
+.new3 table .one{ margin-left:20px; width:300px; height:30px; border-bottom:1px dashed #CCC}
+.new3 table .one td{ padding-left:30px}
+.new3 table em{ color:#0F6}
+
+.new3 table .one a{ color:#666}
+
+
+/*.new3 h2{ height:30px; line-height:30px; border-left:5px solid #0CF; padding-left:10px; margin-bottom:10px;}
+*/.new3 h2 .my_more{ float:right; color:#666; margin-right:10px}
+
+.new3 h2 .ds{ margin-right:5px}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------foot-------------------*/
+
+
+.container .pic{ float:left; margin-left:30px; margin-top:35px}
+.container .ty{ float:left; margin-left:60px; margin-top:20px}
+.container a{ color:#CCC}
+ .container .ty p{ color:#CCC; margin-top:10px}  
+
+
+
+
+
+
+
+
+
+
+
+

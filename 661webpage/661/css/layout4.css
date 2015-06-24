@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+ul,ol{ list-style:none;}
+a{ text-decoration:none}
+img{ border:none}
+body{ font-family:" microsoft yahei,黑体，宋体"; font-size:14px; color:#777; background-color:#f6f7f9;}
+
+/*-----------------------------------布局-------------------------------------*/
+.m-header{height:90px}
+.m-account{ background:url(../image/banner-acc.jpg); height:170px}
+.m-article{height:580px; margin-bottom:120px; margin-top:-50px}
+.m-footer{ background-color:#333; height:120px}
+/*----------------------------------确定中间位置-------------------------------------*/
+.container{ width:1000px; margin:0 auto; height:100%}
+
+
+.m-article .container{ background-color:#FFF}
+
+/*----------------------------------确定m-article中的位置-------------------------------------*/
+ .bread{ height:49px; border-bottom:1px solid #eaeaea}
+ .aside{ width:248px; height:100%; float:left; border-left:1px solid #eaeaea;  border-right:1px solid #eaeaea; color:#999}
+ .manage{ width:748px;height:100%; float:left; border-bottom:1px solid #eaeaea; border-right:1px solid #eaeaea; }
+ /*----------------------------------确定m-header中的位置-------------------------------------*/
+ .m-header .container .imag{ float:left; margin-left:20px; margin-top:15px;}
+.m-header .container ul{ float:right}
+.m-header .container ul li{ float:left; width:120px; height:90px; border-left:1px dashed #eaeaea; text-align:center}
+.m-header .container ul li a{ display:block;height:60px; padding-top:28px; color:#999; font-size:18px; text-decoration:none; color:#565656}
+.m-header .container ul li span{ display:block; font-size:9px}
+.m-header .container ul li a:hover, .active{ border-bottom:3px solid #03C}
+  /*----------------------------------确定m-account中的位置-------------------------------------*/
+  .m-account p{ text-align:center; padding-top:35px; font-size:16px; color:#039}
+
+   .m-account .container span{ display:block; font-size:14px; color:#999}
+    /*----------------------------------确定m-article中bread的位置-------------------------------------*/
+.container .bread .acc1{ float:left}
+.acc1 li{ float:left; width:100px; height:50px; line-height:50px; text-align:center; margin-left:10px}
+.acc1 li a{ color:#999}
+.container .bread .acc2{ float:right}
+.acc1 a:hover{ text-decoration:underline}
+.acc2 li{ float:left; width:100px; height:50px; line-height:50px; border-left:1px solid #eaeaea; text-align:center}
+.acc1 .picc{ background:url(../image/leyou.png) no-repeat 2px 12px;}
+.acc1 .pic3{ margin-top:15px; margin-left:10px;}
+.acc2 a{ color:#999; display:block}
+.acc2 a:hover{ color:#FFF; background-color:#25c4fb}
+
+
+    /*----------------------------------确定m-article中aside的位置-------------------------------------*/
+.m-article .aside .acco1{ margin-left:50px; margin-top:50px}
+.m-article .aside .acco1 li{ margin-top:10px}
+.m-article .aside .acco1 .si a{ color:#0CC}
+.aside ul li ul a{ font-size:12px; color:#999 }
+.aside ul li a:hover{ text-decoration:none; color:#0CC}
+h4 a{ color:#999}
+
+    /*----------------------------------确定m-article中manage的位置-------------------------------------*/
+
+.manage .pic4, .mm{ float:left}
+.manage .pic4{ margin-left:20px; margin-top:60px}
+.manage .mm{ margin-left:10px; margin-top:65px}
+.manage h1{ width:600px; border-bottom:1px solid #eaeaea; height:50px}
+.manage .sui{ margin-top:200px}
+
+.manage a{ color:#999}
+.manage a:hover, .active{ color:#0C9}
+.manage .sui p{ text-indent:2em; line-height:20px; font-weight:500px; color:#999}
+.manage .xiazai{ margin-top:20px }	
+.manage .sui .saa{ padding-right:5px}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	    /*----------------------------------确定footer的位置-------------------------------------*/
+		.m-footer .logo{ float:left; margin-left:20px; margin-top:15px}
+		.m-footer .foot{ float:right; margin-right:60px; margin-top:15px}
+		.foot p, a{ color:#CCC}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+

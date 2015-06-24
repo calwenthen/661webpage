@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+
+/*-------------------------------------------清除默认*/
+
+
+/*-------------------------------------------整体布局*/
+ .top{ height:90px;}
+ .password{ height:170px; background:url(../image/banner-acc.jpg)}
+ .article{ height:1380px; margin-top:-50px; margin-bottom:100px;}
+ .foot{ height:150px;  background-color:#525e6a;}
+
+/*-------------------------------------------中心内容位置布局*/
+.container{ width:1000px; margin:0 auto}
+.top .container{ height:90px;}
+.password .container{ height:170px;}
+.article .container{ height:1380px; border-bottom:1px solid #eaeaea}
+.foot .container{ height:150px;}
+
+/*-------------------------------------------article中内容位置布局*/
+ .bread{ height:50px; background-color:#FFF; border-bottom:1px solid #eaeaea}
+ .aside{ width:248px; height:1300px; float:left; border-left:1px solid #eaeaea; border-right:1px solid #eaeaea; }
+ .content{ width:750px; height:1380px; float:left}
+ 
+
+/*-------------------------------------------top中内容*/
+.top p{ float:left; margin-top:15px; margin-left:25px;}
+.top ul { float:right}
+.top ul li{ float:left; width:120px; text-align:center; border-left:1px dashed #eaeaea}
+.top a{ text-decoration:none; display:block; height:60px; padding-top:27px; font-size:18px; color:#565656}
+.top a:hover, .active{ border-bottom:3px solid #009}
+.top span{ display:block; font-size:9px}
+
+/*-------------------------------------------password中内容*/
+
+.password h1{ text-align:center; padding-top:30px; font-size:20px; color:#FFF}
+.password span{ display:block; font-size:16px; color:#FFF}
+
+/*-------------------------------------------bread中内容*/
+
+.bread .shouye{ float:left}
+.bread .shouye li{ float:left; width:120px; height:50px; line-height:50px; text-align:center}
+.bread .mibao{ float:right}
+.bread .mibao li{ float:left; width:130px; height:50px; line-height:50px; text-align:center}
+.bread a{ font-size:14px; color:#999;}
+.bread .shouye .lp{ background:url(../images/leyou.png) no-repeat 5px}
+.bread .mibao a{ display:block; height:50px; text-decoration:none}
+.bread .mibao a:hover, .j{ background-color:#27c4f7}
+
+/*-------------------------------------------aside中内容*/
+.aside .a-side{ margin-left:40px; margin-top:50px}
+.aside .a-side .kl{ margin-top:40px;}
+.aside .a-side .kj{ font-size:18px; font-weight:bold; color:#666}
+.aside .a-side li ul li{ margin-top:10px;}
+.aside .a-side li ul li a{ font-size:12px; color:#999}
+.aside .a-side li ul li a:hover{ color:#27c4f7}
+.aside ul .kl .man a{ color:#27c4f7}                   
+
+
+
+/*-------------------------------------------content中内容*/
+
+.content h1{ width:600px; border-bottom:1px solid #eaeaea}
+.content .xi{ margin-top:30px; margin-left:40px; font-size:16px; color:#959595}
+.content input{ width:100px; height:35px; margin-left:40px; margin-top:20px; margin-bottom:20px; border:none}
+.content .su{ background-color:#00a6e2; color:#FFF}
+.content .sub{ background-color:#aaaaaa; color:#585858}
+.xi a{ color:#00a8e3; font-size:12px; margin-left:10px}
+table{ margin-top:15px; margin-left:35px; color:#999}
+
+
+
+
+/*-------------------------------------------foot中内容*/
+.foot h4{ float:left; margin-left:60px; margin-top:20px}
+.foot .f-text{ float:right; margin-right:50px}
+.f-text p{ margin-top:5px; color:#CCC}
+.f-text a{ font-size:14px; color:#CCC}
